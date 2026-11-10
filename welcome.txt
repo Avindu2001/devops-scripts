@@ -1,1 +1,1 @@
-Welcome to my DevOps repo
+welcome to the DevOps learning repo
