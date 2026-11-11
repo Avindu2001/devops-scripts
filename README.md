@@ -1,10 +1,16 @@
-# Brief description of scripts in the git-practice folder
+# DevOps Scripts
 
-# List of Scripts
+Bash scripts I wrote while learning DevOps.
 
- 'backup.sh' - 'Backup files of the git-practice folder' 
- 'diskcheck.sh' - 'Disk usage check script'
- 'greet.sh' - 'Greeting script'
- 'health.sh' - 'Disk health check script'
- 'multiply.sh' - 'Multiplication table script'
- 'sysinfo.sh' - 'System information script'
+## Scripts
+
+- `backup.sh` - creates a compressed `.tar.gz` backup of a folder given as an argument
+- `diskcheck.sh` - warns when root disk usage is above 80%
+- `greet.sh` - prints a greeting
+- `health.sh` - writes a system health report (disk, memory, top processes)
+- `multiply.sh` - prints a multiplication table
+- `sysinfo.sh` - prints the hostname, current user and date
+
+## Usage
+
+    ./backup.sh <folder-path>
